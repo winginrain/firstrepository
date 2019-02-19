@@ -1,0 +1,5 @@
+package com.gc.test;
+import com.gc.action.HelloWorld;
+public class TestHelloWorld {
+
+}

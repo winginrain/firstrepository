@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<beans>
+	<bean id="HelloWorld" class="com.gc.action.Helloworld">
+		<property name="msg">
+			<value>HelloWorld</value>
+		</property>
+	</bean>
+</beans>

@@ -1,0 +1,9 @@
+package com.gc.test;
+import com.gc.action.HelloWorld;
+public class TestHelloWorld {
+	public static void main(String[] args) {
+		HelloWorld HelloWorld=new HelloWorld();
+		HelloWorld.setMsg("HelloWorld");
+		System.out.println(HelloWorld.getMsg());
+	}
+}

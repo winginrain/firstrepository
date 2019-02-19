@@ -1,0 +1,11 @@
+package com.gc.test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+import com.gc.action.HelloWorld;
+public class TestHelloWorld {
+	public static void main(String[] args) {
+		HelloWorld HelloWorld=new HelloWorld();
+		HelloWorld.setMsg("HelloWorld");
+		System.out.println(HelloWorld.getMsg());
+	}
+}

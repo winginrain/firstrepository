@@ -1,0 +1,17 @@
+package com.gc.action;
+
+public class HelloWorld {
+	public String msg=null;
+	public void setMsg(String msg) {
+		this.msg=msg;
+	}
+	public String getMsg() {
+		return this.msg;
+	}
+	
+	public HelloWorld getBean(String string) {
+		// TODO Auto-generated method stub
+		HelloWorld HelloWorld=HelloWorld(stromg);
+		return null;
+	}
+}
